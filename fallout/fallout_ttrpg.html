@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="fallout.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><h>S</h>
+        <input type="number" id="Strength" min="1" max="10"></li>
+
+        <li><h>P</h>
+        <input type="number" id="Perception" min="1" max="10"></li>
+
+        <li><h>E</h>
+        <input type="number" id="Endurance" min="1" max="10"></li>
+
+        <li><h>C</h>
+        <input type="number" id="Charisma" min="1" max="10"></li>
+
+        <li><h>I</h>
+        <input type="number" id="Intelligence" min="1" max="10"></li>
+
+        <li><h>A</h>
+        <input type="number" id="Agility" min="1" max="10"></li>
+
+        <li><h>L</h>
+        <input type="number" id="Luck" min="1" max="10"></li>
+
+        <button onclick="submit_special()">Submit</button>
+    </ul>
+    <br>
+    <br>
+    
+
+    <h>Skills</h>
+    <br>
+    <p1 id="skills"></p1>
+    <br>
+
+    <label for="Backgrounds">Backgrounds:</label>
+    <select name="" id="Backgrounds">
+        
+    </select>
+    <button onclick="selectbox()">Submit</button>
+
+    <script src="fallout_ttrpg.js"></script>
+</body>
+</html>
